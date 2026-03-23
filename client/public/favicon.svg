@@ -1,0 +1,28 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="petal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD84D"/>
+      <stop offset="100%" stop-color="#F4B400"/>
+    </radialGradient>
+    <radialGradient id="center" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFA500"/>
+      <stop offset="100%" stop-color="#FF6A00"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background (optional, remove if you want transparent) -->
+  <!-- <rect width="64" height="64" rx="14" fill="#0D1117"/> -->
+
+  <!-- petals -->
+  <circle cx="32" cy="16" r="10" fill="url(#petal)" />
+  <circle cx="48" cy="32" r="10" fill="url(#petal)" />
+  <circle cx="32" cy="48" r="10" fill="url(#petal)" />
+  <circle cx="16" cy="32" r="10" fill="url(#petal)" />
+
+  <!-- center -->
+  <circle cx="32" cy="32" r="8" fill="url(#center)" />
+
+  <!-- sparkles (cute detail for your theme) -->
+  <circle cx="52" cy="12" r="2" fill="#FFD84D"/>
+  <circle cx="56" cy="20" r="1.5" fill="#FFD84D"/>
+</svg>
